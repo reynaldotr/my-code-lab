@@ -4,7 +4,7 @@ console.log("Hellow World!")
 //Variables
 var firstName = "John"
 let lastName = "Smith"
-console.log(lastName)f
+console.log(lastName)
 
 let age, dateOfBirth, sex
 age = "5"
