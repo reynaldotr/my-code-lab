@@ -42,4 +42,8 @@ console.log(`Name of the store is ${store.name}`)
 
 //2. Print name and price of the first product
 
-console.log(`The price of the ${store.products[0]}`)
+console.log(`The price of the ${store.products[0].name} is ${store.products[0].price}`)
+
+//3. Print how many different products there are
+
+console.log(`Total number of products: ${store.products.length}`)
