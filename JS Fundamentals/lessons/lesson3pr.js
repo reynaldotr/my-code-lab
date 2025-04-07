@@ -8,7 +8,7 @@
 // };
 
 // console.log(`Color: ${buttonPreferences.color}`);
-// console.log(buttonPreferences['position']);
+// console.log(buttonPreferences['size']);
 // console.log(buttonPreferences.style);
 // console.log(buttonPreferences["position"])
 
@@ -22,5 +22,24 @@ const purchaseRequirements = {
     'payment type': "accept CC"
 }
 
-console.log('I would accept '+purchaseRequirements.price+" and if they "+purchaseRequirements["payment type"]+' at least')
+// console.log('I would accept '+purchaseRequirements.price+" and if they "+purchaseRequirements["payment type"]+' at least')
 
+
+//ChatGPT exercise
+
+let store = {
+    name: "Nicaragua Store",
+    products: [
+        { name: "keyboard", price: 30, quantity: 10},
+        { name: "Mouse", price: 20, quantity: 15},
+        { name: "Monitor", price: 150, quantity: 5}
+    ]
+}
+
+//1. Print store name
+
+console.log(`Name of the store is ${store.name}`)
+
+//2. Print name and price of the first product
+
+console.log(`The price of the ${store.products[0]}`)
