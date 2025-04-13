@@ -33,7 +33,7 @@ console.log();
 console.log('welcome '+gym_member["memberName"]+ "!");
 
 // 2. Check if member is 18 or older
-console.log(`Older than 18?: ${gym_member.age>=18}`);
+console.log(`Older than 18?: ${gym_member.age >= 18}`);
 
 // 3. Check active membership
 console.log(`Active Membership?: ${gym_member.activeMembership}`);
@@ -42,7 +42,7 @@ console.log(`Active Membership?: ${gym_member.activeMembership}`);
 console.log(`Can enter gym: ${gym_member.age && gym_member.activeMembership}`);
 
 // 5. Check if signed
-console.log(`Signed up for classes: ${gym_member.listOfClasses.length>=0}`)
+console.log(`Signed up for classes: ${gym_member.listOfClasses.length > 0}`)
 
 console.log(`List of clases: ${gym_member.listOfClasses}`)
 console.log(`List of classes: ${gym_member.listOfClasses.join(', ')}`)
