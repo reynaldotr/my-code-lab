@@ -39,6 +39,7 @@ if (student.currentScore >= 75){
     for (let testCenter of student.availableTestCenters){
         if (testCenter.toUpperCase() === 'ONLINE PORTAL'){
             containsOnlinePortal = true;
+            break;
     }
 }
 
@@ -54,7 +55,7 @@ if (student.currentScore >= 75){
     
         } else if (i <= 5){
             console.log (`❌ Attempt #${i}: Not enough. Retaking...`);
-            student.currentScore = student.currentScore + 3;
+            student.currentScore = student.currentScore + 3; //Adds 3 points to the last `currentScore` per attempt
     
         } else if (passed){
             console.log(`⚠️ Final Attempt #6: ${student.name} passed at the last second!`);
