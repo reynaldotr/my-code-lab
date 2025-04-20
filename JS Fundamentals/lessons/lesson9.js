@@ -7,4 +7,4 @@ let customerDetails = new CustomerDetails();
 // 'customerDetails' became our object
 
 customerDetails.printFirstName('Steve');
-customerDetails.printLastName('Smith');
+customerDetails.printLastname('Smith');
