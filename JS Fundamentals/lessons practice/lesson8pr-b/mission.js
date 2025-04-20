@@ -12,7 +12,7 @@ console.log(greetAgent('ShadowFox'));
 console.log(`Agent status: ${evaluateScore(88)}`);
 console.log();
 
-//Method V1 - Separate Aways + For "i" Loop + Math.min()
+//Method V1 - Separate Arrays + For "i" Loop + Math.min()
 
 let agentNames = ["RedBurn", "RobStick", "Leviathan", "Safiro", "BlueSky", "Overseas"]
 let obtainedScores = [100, 90, 80, 70, 60, 50, 40, 30]
