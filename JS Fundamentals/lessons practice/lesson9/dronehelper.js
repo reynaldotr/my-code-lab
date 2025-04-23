@@ -6,7 +6,7 @@ export class DronesDelivery {
     
     {
         this.droneID = droneID;
-        this.currentLocation = currentLocation[0];
+        this.currentLocation = currentLocation;
         this.batteryLevel = batteryLevel;
     }
 

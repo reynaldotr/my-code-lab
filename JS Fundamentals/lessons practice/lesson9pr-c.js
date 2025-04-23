@@ -26,11 +26,10 @@ class DronesDelivery {
       }
     }
   }
-  
 
 const drone1 = new DronesDelivery(1084, 80);
 
-while (drone1.deliverySteps[drone1.i] !== "Delivered") {
+while (((drone1.deliverySteps[drone1.i]).toUpperCase()) !== 'DELIVERED')  {
   
   // Recharge until battery hits 100 if it's too low to deliver
   while (drone1.batteryLevel < 25) {

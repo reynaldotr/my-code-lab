@@ -15,4 +15,9 @@ droneDelivery1.recharge();//Recharging drone
 console.log();//Empty space
 
 droneDelivery1.currentStatus(); //Show status again (final)
+droneDelivery1.performDelivery('Closer');
+
+console.log();
+
+droneDelivery1.currentStatus();
 

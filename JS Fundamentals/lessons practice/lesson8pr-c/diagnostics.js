@@ -39,7 +39,7 @@ let i = 0;
 for (let robot of robots){
     i++;
 
-        console.log();
+    console.log();
     console.log(`Robot Number: ${i}`);
     console.log(`Robot: ${robot.name}`);
     console.log(evaluateBattery(robot.battery));
@@ -59,7 +59,7 @@ for (let robot of robots){
 for (let i=0; i<robots.length; i++){
     let robot = robots[i]
 
-    console.log();
+        console.log();
         console.log(`Robot Number: ${i+1}`); //Or ${++index}
         console.log(`Robot: ${robot.name}`);
         console.log(evaluateBattery(robot.battery));
