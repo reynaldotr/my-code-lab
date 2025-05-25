@@ -18,3 +18,6 @@ test.skip('has title', async ({ page }) => {
 
 test.only('has title', async ({ page }) => {
 });
+
+npx playwright test --ui // Playwright UI Runner
+
