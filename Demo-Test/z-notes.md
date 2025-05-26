@@ -18,3 +18,13 @@ test.skip('has title', async ({ page }) => {
 
 test.only('has title', async ({ page }) => {
 });
+
+npx playwright test --ui // Playwright UI Runner
+
+
+//20. Trace View and Debug:
+
+npx playwright test --project=chromium --trace on
+npx playwright test --project=chromium --debug
+VS Code: Breakpoint + Debug Player icon 
+
