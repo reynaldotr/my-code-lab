@@ -42,7 +42,7 @@ console.log(`Classes ${member.name} is taking: ${member.signedUpClasses.join(', 
 
 //7. Check if the member is allowed to take an advanced strength class, which requires: Age 21 or older OR they are already signed up for "Strength Basics"
 
-console.log(`Is ${member["name"]} allowed to take an advanced strength class?: ${member.age >= 21 || member.signedUpClasses.includes("Strength Basics")}`);
+console.log(`Is ${member["name"]} allowed to take an advanced strength class?: ${member.age >= 21 || member.signedUpClasses.some(x => x.toLowerCase() === "Strength Basics".toLowerCase())}`);
 
 //ChatGPT feedback:
 
